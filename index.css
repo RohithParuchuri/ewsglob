@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url("https://www.griet.ac.in/images/ICF/eng_ws_5.jpg") !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+nav * {
+  margin-top: 0px;
+}
+.navbar-brand {
+  color: #fff;
+  font-weight: 600;
+  margin-left: 5%;
+  font-size: 2.1rem !important;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.navbar-brand span {
+  color: #c16c3e !important;
+}
+.navbar-brand:hover {
+  color: #c16c3e !important;
+}
+
+.navbar-nav > li {
+  margin-left: 0px;
+  margin-right: 12px;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+.nav-link {
+  font-weight: lighter !important;
+}
+.nav-link:hover {
+  color: #c06b3e !important;
+}
+a.active {
+  font-weight: bold !important;
+}
+.navbar-nav a.active:hover {
+  color: #d85915 !important;
+  scale: 102%;
+}
+
+.txt-heading {
+  color: rgb(155, 155, 155);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.txt-heading h1 {
+  color: #fff;
+}
+.txt-heading a {
+  color: #fff;
+}
+.cardGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  margin: 30px 0px 0px 0px;
+  width: 50%;
+  background-color: black !important;
+  border: 2px solid rgba(245, 222, 179, 0.815) !important;
+  box-shadow: rgba(92, 153, 172, 0.253) 5px 5px 20px;
+  color: rgb(255, 255, 255) !important;
+}
+.card-header {
+  background-color: rgb(63, 63, 63) !important;
+}
+P {
+  text-align: center;
+  margin: 1px 30px 20px 30px;
+}
