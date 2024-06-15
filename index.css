@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 1)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.9)),
     url("https://www.griet.ac.in/images/ICF/eng_ws_5.jpg") !important;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -14,11 +14,14 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 nav * {
   margin-top: 0px;
+  backdrop-filter: blur(2px);
+  backdrop-filter: contrast();
 }
 .navbar-brand {
-  color: #fff;
+  color: #f37107;
   font-weight: 600;
   margin-left: 5%;
   font-size: 2.1rem !important;
@@ -27,10 +30,10 @@ nav * {
   transition: 0.2s ease;
 }
 .navbar-brand span {
-  color: #c16c3e !important;
+  color: #f14d07 !important;
 }
 .navbar-brand:hover {
-  color: #c16c3e !important;
+  color: #f55e00 !important;
 }
 
 .navbar-nav > li {
@@ -47,18 +50,18 @@ nav * {
   font-weight: lighter !important;
 }
 .nav-link:hover {
-  color: #c06b3e !important;
+  color: #f0eae6 !important;
 }
 a.active {
   font-weight: bold !important;
 }
 .navbar-nav a.active:hover {
-  color: #d85915 !important;
+  color: #dfece1 !important;
   scale: 102%;
 }
 
 .txt-heading {
-  color: rgb(155, 155, 155);
+  color: rgb(206, 207, 206);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -90,8 +93,7 @@ a.active {
   backdrop-filter: blur(5px) !important;
   background-color: rgb(63, 63, 63, 0.5) !important;
 }
-@media only screen and (max-width: 700px)
-{
+@media only screen and (max-width: 700px) {
   .card {
     width: 90%;
   }
@@ -99,4 +101,37 @@ a.active {
 P {
   text-align: center;
   margin: 1px 30px 20px 30px;
+}
+.btn-secondary {
+  background-color: rgb(65, 65, 65) !important;
+  border: black 2px !important;
+  box-shadow: rgb(15, 15, 15) 2px 2px 12px;
+  transition: 2s ease;
+}
+.btn-secondary:hover {
+  background-color: rgb(44, 43, 43) !important;
+}
+.inf_txt {
+  color: white;
+  border-radius: 15px;
+  margin: 20px;
+  backdrop-filter: blur(7px) brightness(95%);
+  backdrop-filter: contrast(30px);
+  border: solid rgba(5, 5, 5, 0.199);
+  box-shadow: black 2px 2px 2px;
+}
+.inf_txt h1 {
+  text-align: left;
+  margin: 50px;
+}
+.inf_txt p {
+  text-align: left;
+  margin: 50px;
+}
+.inf_txt a {
+  margin: 20px 10px 30px 30px;
+}
+.our-ids {
+  text-align: left;
+  margin: 50px;
 }
