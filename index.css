@@ -135,3 +135,26 @@ P {
   text-align: left;
   margin: 50px;
 }
+table {
+  margin-top: 1%;
+  width: 40%;
+  border-collapse: collapse;
+  border: 3px solid white;
+}
+
+th {
+  color: white;
+  border: 1px solid rgb(160, 158, 158) !important;
+  border-collapse: collapse;
+  padding-left: 1%;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+td {
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(168, 168, 168) !important;
+  border-collapse: collapse;
+  padding-left: 2%;
+  padding-right: 0px;
+  margin-right: 0px;
+}
