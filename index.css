@@ -97,6 +97,13 @@ a.active {
   .card {
     width: 90%;
   }
+  .inf_txt .GlassImg{
+    border-radius: 18px;
+    transform: translateX(13%);
+    width: 110%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 P {
   text-align: center;
@@ -163,4 +170,28 @@ td {
   padding-left: 2%;
   padding-right: 0px;
   margin-right: 0px;
+}
+
+.GlassImg {
+  border-radius: 13px 73px 13px 73px;
+  /* border-radius: 13px; */
+  box-shadow: inset 1px 1px 50px rgba(0, 0, 0, 0.671),
+    1px 1px 23px rgba(0, 0, 0, 0.548);
+  border-top: 1px solid rgba(255, 255, 255, 0.664);
+  border-bottom: 1px solid rgba(253, 253, 253, 0.671);
+  overflow: hidden;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 20%;
+  float: right;
+}
+.GlassImg img {
+  position: relative;
+  box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.774);
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+  z-index: -1;
+}
+.GlassImg:hover img {
+  transform: scale(107%);
 }
