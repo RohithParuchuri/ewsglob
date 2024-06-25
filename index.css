@@ -97,12 +97,20 @@ a.active {
   .card {
     width: 90%;
   }
-  .inf_txt .GlassImg{
+  .inf_txt .GlassImg {
     border-radius: 18px;
     transform: translateX(20%) scale(80%);
     width: 110%;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  body {
+    background-image: radial-gradient(
+        rgba(0, 0, 0, 0.302),
+        rgb(0, 0, 0)
+      ),
+      url("https://www.griet.ac.in/images/ICF/eng_ws_5.jpg") !important;
+    background-size: 250%;
   }
 }
 P {
