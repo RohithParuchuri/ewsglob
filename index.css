@@ -99,7 +99,7 @@ a.active {
   }
   .inf_txt .GlassImg{
     border-radius: 18px;
-    transform: translateX(13%);
+    transform: translateX(20%) scale(80%);
     width: 110%;
     margin-top: 20px;
     margin-bottom: 20px;
